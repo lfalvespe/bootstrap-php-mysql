@@ -55,10 +55,10 @@ include_once('config.php');
 	
 			<div>
 				<p class="mt-2 text-secondary mb-1">Sexo </p>
-				<input type="radio" name="sexo" id="masc" class="form-check-input">
+				<input type="radio" name="sexo" id="masc" value="M" class="form-check-input">
 				<label for="masc" class="form-check-label text-secondary">masculino</label>
 				
-				<input type="radio" name="sexo" id="fem" class="form-check-input ms-2">
+				<input type="radio" name="sexo" id="fem" value="F" class="form-check-input ms-2">
 				<label for="fem" class="form-check-label text-secondary">Feminino</label>
 			</div>
 		
